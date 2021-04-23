@@ -1,1 +1,35 @@
 /*stylesheet*/
+
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#masthead {
+	background-color: pink;
+}
+
+#nav {
+	background-color: purple;
+}
+
+#logo {
+	padding: 2em 0;
+}
+
+#logo a{
+	color: var(--body-color);
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo svg{
+	width: 20%;
+}
