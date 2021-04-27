@@ -1,7 +1,7 @@
 /*stylesheet*/
 
 :root {
-	--background-color: #FF40B2;
+	--background-color: #FFB6E5
 	--body-color: ; 
 }
 
@@ -11,6 +11,16 @@ body {
 	color: black;
 	font-weight: 400;
 	font-size: 20px;
+}
+
+h1 {
+  position: relative;
+  font-weight: 300;
+  background-color: #FFB6E5;
+  color: #E80A84;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
@@ -24,7 +34,7 @@ body {
 }
 
 #nav {
-	background-color: hotpink;
+	background-color: #FFB6E5;
   padding: 0 1rem;
 
 }
@@ -79,6 +89,10 @@ body {
   padding: .5rem 0;
   color: #000;
   text-decoration: none;
+}
+
+nav .nav-menu a:hover, #nav .nav-menu a.active {
+  text-decoration: underline;
 }
 
 
