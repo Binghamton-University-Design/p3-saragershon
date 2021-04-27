@@ -46,7 +46,9 @@ body {
 	height: 10.0rem;
 	width: auto;
 	padding-left: 2em;
-	align-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /*MASTHEAD*/
