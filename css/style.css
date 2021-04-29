@@ -56,6 +56,54 @@ body {
   padding: 0px 10px;
 }
 
+.quote-holder {
+  height: 40vh;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3em;
+  margin-bottom: 2em;
+  background-color: hotpink;
+  grid-gap: 0;
+}
+
+.quote {
+  text-align: center;
+  font-size: 40pt;
+}
+
+.chat {
+position: relative;
+color: white;
+grid-gap: 0;
+}
+
+.chat img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+ .chat .overlay {
+  transition: all .3s ease-in-out;
+  opacity: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects .grid-item:hover .overlay {
+  opacity: 1
+}
+
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
