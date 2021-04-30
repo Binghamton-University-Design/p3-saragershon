@@ -6,7 +6,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'VT323', monospace;
 	color: black;
 	font-weight: 300;
 	font-size: 20px;
@@ -16,7 +16,6 @@ body {
  .logo-image img{
   width: 100%;
   height: auto;
-  border-radius: 50%;
   overflow: hidden;
   margin-top: -6px;
   position: relative;
@@ -59,13 +58,14 @@ body {
 .quote-holder {
   height: 40vh;
   font-weight: 200;
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 3em;
   margin-bottom: 2em;
   background-color: hotpink;
   grid-gap: 0;
+  display: inline-block;
+  margin-bottom: -30px;
 }
 
 .quote {
@@ -79,10 +79,29 @@ color: white;
 grid-gap: 0;
 }
 
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  margin-left: 250px;
+}
+
+.center img {
+  width: 100%;
+  height: auto;
+}
+
+
 .chat img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
  .chat .overlay {
