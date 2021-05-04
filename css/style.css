@@ -118,6 +118,29 @@ h1 {
   justify-content: center;
 }
 
+.window img {
+ width: 100%;
+  height: auto;
+}
+
+.window {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  position: relative;
+  background-color: orange;
+}
+
+.window .overlay {
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  background-color: red;
+  width: 100%;
+}
+
 #projects .grid-item:hover .overlay {
   opacity: 1
 }
