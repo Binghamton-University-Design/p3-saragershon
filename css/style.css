@@ -87,16 +87,13 @@ grid-gap: 0;
   height: auto;
 }
 
+
+
 h1 {
-  font-family: 'VT323', monospace;
-  margin-left: 250px;
-}
+font-family: 'VT323', monospace;
+margin-left: 200px; 
 
-.center img {
-  width: 100%;
-  height: auto;
 }
-
 
 .chat img {
   display: block;
@@ -143,6 +140,39 @@ h1 {
 
 #projects .grid-item:hover .overlay {
   opacity: 1
+}
+
+#photos {
+  position: relative;
+  grid-gap: 0;
+  font-size: 0;
+}
+
+#photos .grid {
+  grid-gap: 0;
+  margin-left: 160px;
+  z-index: 1;
+  font-size: 0;
+}
+
+#photos .grid img {
+  margin-bottom: 0;
+  height: auto;
+  width: 100%;
+  font-size:0;
+}
+
+
+#footer {
+  width: 100%;
+  padding: 2em;
+  text-align: center;
+  font-size: .75em;
+  background: #ED1983;
+}
+
+#footer p {
+  color: #F2EFE4;
 }
 
 
