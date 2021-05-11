@@ -144,22 +144,79 @@ margin-left: 200px;
 
 #photos {
   position: relative;
-  grid-gap: 0;
-  font-size: 0;
-}
-
-#photos .grid {
-  grid-gap: 0;
+  height: 200vh;
   margin-left: 160px;
-  z-index: 1;
-  font-size: 0;
 }
 
-#photos .grid img {
+#photos img {
   margin-bottom: 0;
-  height: auto;
   width: 100%;
-  font-size:0;
+  height: auto;
+}
+
+
+.window-1 {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  width: 300px;
+  z-index: 999;
+
+}
+
+.window-2 {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+  width: 300px;
+}
+
+
+.window-3 {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  z-index: 800;
+  width: 300px;
+}
+
+.window-4 {
+  position: absolute;
+  right: 30%;
+  top: 18%;
+  width: 300px;
+  z-index: 800;
+}
+
+.window-5 {
+  position: absolute;
+  left: 10%;
+  top: 47%;
+  width: 300px;
+  z-index: 700;
+}
+
+.window-6 {
+  position: absolute;
+  right: 30%;
+  top: 50%;
+  width: 300px;
+  z-index: 700;
+}
+
+.window-7 {
+  position: absolute;
+  left: 10%;
+  top: 63%;
+  width: 300px;
+  z-index: 600;
+}
+
+.window-8 {
+  position: absolute;
+  right: 30%;
+  top: 65%;
+  width: 300px;
 }
 
 
