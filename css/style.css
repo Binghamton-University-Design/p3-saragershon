@@ -159,7 +159,7 @@ margin-left: 200px;
   position: absolute;
   left: 10%;
   top: 5%;
-  width: 300px;
+  width: 25%;
   z-index: 999;
 
 }
@@ -168,7 +168,7 @@ margin-left: 200px;
   position: absolute;
   right: 30%;
   top: 5%;
-  width: 300px;
+  width: 25%;
 }
 
 
@@ -177,14 +177,14 @@ margin-left: 200px;
   left: 10%;
   top: 15%;
   z-index: 800;
-  width: 300px;
+  width: 25%;
 }
 
 .window-4 {
   position: absolute;
   right: 30%;
   top: 18%;
-  width: 300px;
+  width: 25%;
   z-index: 800;
 }
 
@@ -192,7 +192,7 @@ margin-left: 200px;
   position: absolute;
   left: 10%;
   top: 47%;
-  width: 300px;
+  width: 25%;
   z-index: 700;
 }
 
@@ -200,7 +200,7 @@ margin-left: 200px;
   position: absolute;
   right: 30%;
   top: 50%;
-  width: 300px;
+  width: 25%;
   z-index: 700;
 }
 
@@ -208,7 +208,7 @@ margin-left: 200px;
   position: absolute;
   left: 10%;
   top: 63%;
-  width: 300px;
+  width: 25%;
   z-index: 600;
 }
 
@@ -216,7 +216,7 @@ margin-left: 200px;
   position: absolute;
   right: 30%;
   top: 65%;
-  width: 300px;
+  width: 25%;
 }
 
 
@@ -230,6 +230,7 @@ margin-left: 200px;
 
 #footer p {
   color: #F2EFE4;
+  margin-bottom: 7em;
 }
 
 
